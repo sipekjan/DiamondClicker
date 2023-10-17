@@ -87,7 +87,7 @@ const steveBuy = () => {
         cost3 = cost3 + 100;
         pocet.innerText = `Diamond: ${diamond}`;
         interval = setInterval(change, 1500);
-        miner.style.display = "block";
+        steve.style.display = "block";
         price3 = cena3;
         cena3 = cena3 + 100;
         costclick3.innerText = `Cena: ${cena3}`;
