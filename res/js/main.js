@@ -3,7 +3,7 @@ let pocet = document.getElementById("pocet");
 let autoclicker = document.getElementById("autoclicker");
 let costclick = document.getElementById("costautoclick");
 let poc = document.getElementById("poc");
-let miner = document.getElementById("steve");
+let steve1 = document.getElementById("steve");
 let double = 0;
 let fifty = 0;
 
@@ -81,7 +81,7 @@ let price3 = 300;
 let cena3 = 300;
 let cost3 = 300;
 
-const minerBuy = () => {
+const steveBuy = () => {
     if (diamond >= cost3) {
         diamond -= cost3;
         cost3 = cost3 + 100;
@@ -96,7 +96,7 @@ const minerBuy = () => {
         poc3.innerText = `${mino}`;
     }
 }
-miner.onclick = minerBuy;
+steve1.onclick = steveBuy;
 
 
 let minecart = document.getElementById("minecart");
