@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DiamondClicker</title>
+    <link rel="stylesheet" href="./res/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="icon" href=./res/img/diamond.png type="image/x-icon"/>
+
+</head>
+<body>
+<input type="checkbox" id="check">
+<label for="check" class="checkbtn">
+    <i class="fas fa-bars"></i>
+</label>
+<label class="logo">Diamond Clicker</label>
+
+<div class="ram"></div>
+
+<div onclick="costclick6">
+    <button id="doubleclick" onclick="doubleclickBuy">DOUBLECLICK
+        <img id="cursor" src="./res/img/cursor.png" alt="cursor">
+        <div id="costautoclick6">Cena: 250</div>
+    </button>
+</div>
+<div onclick="costclick7">
+    <button id="fiftyclick" onclick="fiftyclickBuy">FIFTYCLICK
+        <img id="cursor1" src="./res/img/cursor1.png" alt="cursor1">
+        <div id="costautoclick7">Cena: 5000</div>
+    </button>
+</div>
+<div class="ram"></div>
+
+<div onclick="costclick">
+    <button id="autoclicker" onclick="autoclickerBuy">AUTOCLICKER
+        <div id="costautoclick">Cena: 10</div>
+        <div id="poc">0</div>
+    </button>
+</div>
+<div onclick="costclick2">
+    <button id="pickaxe" onclick="pickaxeBuy">PICKAXE
+        <div id="costautoclick2">Cena: 100</div>
+        <img id="pickaxe1" src="./res/img/pickaxe.png" alt="pickaxe">
+        <div id="poc2">0</div>
+    </button>
+</div>
+
+<div onclick="costclick3">
+    <button id="steve" onclick="minerBuy">STEVE
+        <div id="costautoclick3">Cena: 300</div>
+        <img id="steve1" src="./res/img/steve.png" alt="steve">
+        <div id="poc3">0</div>
+    </button>
+</div>
+
+<div onclick="costclick4">
+    <button id="minecart" onclick="minecartBuy">MINE CART
+        <div id="costautoclick4">Cena: 1000</div>
+        <img id="minecart1" src="./res/img/minecart.png" alt="minecart">
+        <div id="poc4">0</div>
+    </button>
+</div>
+
+
+<div class="poz">
+    <img id="dia" src="./res/img/diamond.png" alt="diamond">
+    <div id="pocet">Diamond:</div>
+</div>
+
+<script src="./res/js/main.js"></script>
+
+</body>
+</html>
